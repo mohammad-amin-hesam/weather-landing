@@ -7,7 +7,7 @@ const prodConfig = {
   mode: 'production',
   output: {
     filename: '[name].[contenthash].js',
-    publicPath: '/',
+    publicPath: 'https://weather-test-86064.web.app/',
   },
   plugins: [
     new ModuleFederationPlugin({

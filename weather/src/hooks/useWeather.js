@@ -7,6 +7,11 @@ const useWeather = () => {
 
 	const handleUserLocation = () => {
 		const success = async (position) => {
+			const initialData = sessionStorage.getItem("weather-data");
+			if (initialData) {
+				setWeatherDetails(JSON.parse(initialData));
+				return;
+			}
 			const api = new Api();
 			setLoading(true);
 			try {
@@ -14,6 +19,7 @@ const useWeather = () => {
 					`/forecast?latitude=${position.coords.latitude}&longitude=${position.coords.longitude}&hourly=temperature&forecast_days=5`
 				);
 				setWeatherDetails(res.data);
+				sessionStorage.setItem("weather-data", JSON.stringify(res.data));
 			} catch (err) {
 				// Handle Err
 			} finally {

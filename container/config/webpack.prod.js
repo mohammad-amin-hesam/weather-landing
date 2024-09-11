@@ -4,7 +4,7 @@ const commonConfig = require("./webpack.common");
 const packageJson = require("../package.json");
 
 const domain =
-	process.env.PRODUCTION_DOMAIN || "https://weather-container-f486c.web.app/";
+	process.env.PRODUCTION_DOMAIN || "https://weather-test-86064.web.app";
 
 const prodConfig = {
 	mode: "production",
