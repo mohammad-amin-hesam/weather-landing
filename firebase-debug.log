@@ -1,29 +1,31 @@
-[debug] [2024-09-11T12:56:51.241Z] ----------------------------------------------------------------------
-[debug] [2024-09-11T12:56:51.242Z] Command:       C:\Users\user\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
-[debug] [2024-09-11T12:56:51.242Z] CLI Version:   13.16.0
-[debug] [2024-09-11T12:56:51.243Z] Platform:      win32
-[debug] [2024-09-11T12:56:51.243Z] Node Version:  v18.5.0
-[debug] [2024-09-11T12:56:51.243Z] Time:          Wed Sep 11 2024 17:26:51 GMT+0430 (Iran Daylight Time)
-[debug] [2024-09-11T12:56:51.243Z] ----------------------------------------------------------------------
+[debug] [2024-09-11T13:37:43.081Z] ----------------------------------------------------------------------
+[debug] [2024-09-11T13:37:43.083Z] Command:       C:\Users\user\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
+[debug] [2024-09-11T13:37:43.083Z] CLI Version:   13.16.0
+[debug] [2024-09-11T13:37:43.083Z] Platform:      win32
+[debug] [2024-09-11T13:37:43.083Z] Node Version:  v18.5.0
+[debug] [2024-09-11T13:37:43.084Z] Time:          Wed Sep 11 2024 18:07:43 GMT+0430 (Iran Daylight Time)
+[debug] [2024-09-11T13:37:43.084Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-09-11T12:56:51.330Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-09-11T12:56:51.330Z] > authorizing via signed-in user (artificial.intelligence.develop@gmail.com)
+[debug] [2024-09-11T13:37:43.158Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-11T13:37:43.158Z] > authorizing via signed-in user (artificial.intelligence.develop@gmail.com)
 [info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
-[debug] [2024-09-11T12:56:51.339Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T12:56:51.339Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T12:56:51.340Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[debug] [2024-09-11T12:56:51.344Z] [hub] writing locator at C:\Users\user\AppData\Local\Temp\hub-weather-test-86064.json
-[debug] [2024-09-11T12:56:51.358Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 
-[debug] [2024-09-11T12:56:53.073Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 200
-[debug] [2024-09-11T12:56:53.073Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites {"sites":[{"name":"projects/weather-test-86064/sites/weather-test-86064","defaultUrl":"https://weather-test-86064.web.app","type":"DEFAULT_SITE"}]}
-[debug] [2024-09-11T12:56:53.073Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config [none]
-[debug] [2024-09-11T12:56:54.181Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config 200
-[debug] [2024-09-11T12:56:54.181Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config {"projectId":"weather-test-86064","storageBucket":"weather-test-86064.appspot.com","apiKey":"AIzaSyCqR7YNATcczprjcURgTvxsb9YLt-dQ4cQ","authDomain":"weather-test-86064.firebaseapp.com","messagingSenderId":"501333426279"}
-[debug] [2024-09-11T12:56:54.186Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 [none]
-[debug] [2024-09-11T12:56:54.776Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 200
-[debug] [2024-09-11T12:56:54.776Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 {"projectId":"weather-test-86064","projectNumber":"501333426279","displayName":"weather-test","name":"projects/weather-test-86064","resources":{"hostingSite":"weather-test-86064"},"state":"ACTIVE","etag":"1_0a770bb4-89fc-4a5e-905e-206af3b6097a"}
-[info] i  hosting[weather-test-86064]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
-[info] +  hosting[weather-test-86064]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2024-09-11T13:37:43.166Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-09-11T13:37:43.166Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-09-11T13:37:43.166Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-09-11T13:37:43.170Z] [hub] writing locator at C:\Users\user\AppData\Local\Temp\hub-weather-test-86064.json
+[debug] [2024-09-11T13:37:43.182Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 
+[debug] [2024-09-11T13:37:45.134Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 200
+[debug] [2024-09-11T13:37:45.134Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites {"sites":[{"name":"projects/weather-test-86064/sites/weather-test-86064","defaultUrl":"https://weather-test-86064.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-09-11T13:37:45.134Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config [none]
+[debug] [2024-09-11T13:37:47.517Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config 200
+[debug] [2024-09-11T13:37:47.517Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config {"projectId":"weather-test-86064","storageBucket":"weather-test-86064.appspot.com","apiKey":"AIzaSyCqR7YNATcczprjcURgTvxsb9YLt-dQ4cQ","authDomain":"weather-test-86064.firebaseapp.com","messagingSenderId":"501333426279"}
+[debug] [2024-09-11T13:37:47.522Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 [none]
+[debug] [2024-09-11T13:37:48.450Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 200
+[debug] [2024-09-11T13:37:48.451Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 {"projectId":"weather-test-86064","projectNumber":"501333426279","displayName":"weather-test","name":"projects/weather-test-86064","resources":{"hostingSite":"weather-test-86064"},"state":"ACTIVE","etag":"1_0a770bb4-89fc-4a5e-905e-206af3b6097a"}
+[info] i  hosting[container]: Serving hosting files from: container/dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mcontainer/dist\u001b[22m"}}
+[info] +  hosting[container]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting[weather]: Serving hosting files from: weather/dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mweather/dist\u001b[22m"}}
+[info] +  hosting[weather]: Local server: http://127.0.0.1:5005 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5005\u001b[22m\u001b[24m"}}
 [warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
 [info] 
 ┌─────────────────────────────────────────────────────────────┐
@@ -36,211 +38,66 @@
 │ Hosting  │ 127.0.0.1:5000 │
 └──────────┴────────────────┘
   Emulator Hub running at 127.0.0.1:4400
-  Other reserved ports: 4500
+  Other reserved ports: 4500, 5005
 
 Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
  
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:57:14 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:57:14 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:57:14.932Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-app-compat.js [none]
-[debug] [2024-09-11T12:57:15.162Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-auth-compat.js [none]
-[debug] [2024-09-11T12:57:15.241Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-database-compat.js [none]
-[debug] [2024-09-11T12:57:15.242Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore-compat.js [none]
-[debug] [2024-09-11T12:57:15.243Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-functions-compat.js [none]
-[debug] [2024-09-11T12:57:15.245Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-messaging-compat.js [none]
-[debug] [2024-09-11T12:57:15.327Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-app-compat.js 200
-[debug] [2024-09-11T12:57:15.327Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-app-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:57:15 +0000] "GET /__/firebase/10.13.1/firebase-app-compat.js HTTP/1.1" 200 10053 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:57:15 +0000] \"GET /__/firebase/10.13.1/firebase-app-compat.js HTTP/1.1\" 200 10053 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:57:15.337Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-storage-compat.js [none]
-[debug] [2024-09-11T12:57:15.555Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-auth-compat.js 200
-[debug] [2024-09-11T12:57:15.555Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-auth-compat.js [stream]
-[debug] [2024-09-11T12:57:15.648Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-functions-compat.js 200
-[debug] [2024-09-11T12:57:15.648Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-functions-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:57:15 +0000] "GET /__/firebase/10.13.1/firebase-functions-compat.js HTTP/1.1" 200 3267 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:57:15 +0000] \"GET /__/firebase/10.13.1/firebase-functions-compat.js HTTP/1.1\" 200 3267 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:57:15.652Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics-compat.js [none]
-[debug] [2024-09-11T12:57:15.672Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-messaging-compat.js 200
-[debug] [2024-09-11T12:57:15.672Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-messaging-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:57:15 +0000] "GET /__/firebase/10.13.1/firebase-messaging-compat.js HTTP/1.1" 200 9989 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:57:15 +0000] \"GET /__/firebase/10.13.1/firebase-messaging-compat.js HTTP/1.1\" 200 9989 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:57:15.682Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-remote-config-compat.js [none]
-[debug] [2024-09-11T12:57:15.686Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore-compat.js 200
-[debug] [2024-09-11T12:57:15.686Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore-compat.js [stream]
-[debug] [2024-09-11T12:57:15.731Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-database-compat.js 200
-[debug] [2024-09-11T12:57:15.731Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-database-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:57:15 +0000] "GET /__/firebase/10.13.1/firebase-auth-compat.js HTTP/1.1" 200 39641 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:57:15 +0000] \"GET /__/firebase/10.13.1/firebase-auth-compat.js HTTP/1.1\" 200 39641 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:57:15.761Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-performance-compat.js [none]
-[debug] [2024-09-11T12:57:15.780Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-storage-compat.js 200
-[debug] [2024-09-11T12:57:15.780Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-storage-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:57:15 +0000] "GET /__/firebase/10.13.1/firebase-storage-compat.js HTTP/1.1" 200 12991 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:57:15 +0000] \"GET /__/firebase/10.13.1/firebase-storage-compat.js HTTP/1.1\" 200 12991 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:57:15 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:57:15 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:57:15 +0000] "GET /__/firebase/10.13.1/firebase-database-compat.js HTTP/1.1" 200 48014 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:57:15 +0000] \"GET /__/firebase/10.13.1/firebase-database-compat.js HTTP/1.1\" 200 48014 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:57:15 +0000] "GET /__/firebase/10.13.1/firebase-firestore-compat.js HTTP/1.1" 200 101808 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:57:15 +0000] \"GET /__/firebase/10.13.1/firebase-firestore-compat.js HTTP/1.1\" 200 101808 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:57:16.051Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics-compat.js 200
-[debug] [2024-09-11T12:57:16.051Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:57:16 +0000] "GET /__/firebase/10.13.1/firebase-analytics-compat.js HTTP/1.1" 200 9215 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:57:16 +0000] \"GET /__/firebase/10.13.1/firebase-analytics-compat.js HTTP/1.1\" 200 9215 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:57:16.074Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-remote-config-compat.js 200
-[debug] [2024-09-11T12:57:16.074Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-remote-config-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:57:16 +0000] "GET /__/firebase/10.13.1/firebase-remote-config-compat.js HTTP/1.1" 200 8815 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:57:16 +0000] \"GET /__/firebase/10.13.1/firebase-remote-config-compat.js HTTP/1.1\" 200 8815 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:57:16.169Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-performance-compat.js 200
-[debug] [2024-09-11T12:57:16.169Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-performance-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:57:16 +0000] "GET /__/firebase/10.13.1/firebase-performance-compat.js HTTP/1.1" 200 10251 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:57:16 +0000] \"GET /__/firebase/10.13.1/firebase-performance-compat.js HTTP/1.1\" 200 10251 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:57:16 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:57:16 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:57:55.271Z] Received signal SIGINT (Ctrl-C) 1
-[debug] [2024-09-11T12:57:57.779Z] ----------------------------------------------------------------------
-[debug] [2024-09-11T12:57:57.780Z] Command:       C:\Users\user\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
-[debug] [2024-09-11T12:57:57.780Z] CLI Version:   13.16.0
-[debug] [2024-09-11T12:57:57.780Z] Platform:      win32
-[debug] [2024-09-11T12:57:57.781Z] Node Version:  v18.5.0
-[debug] [2024-09-11T12:57:57.781Z] Time:          Wed Sep 11 2024 17:27:57 GMT+0430 (Iran Daylight Time)
-[debug] [2024-09-11T12:57:57.781Z] ----------------------------------------------------------------------
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:38:05 +0000] "GET / HTTP/1.1" 200 688 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:38:05 +0000] \"GET / HTTP/1.1\" 200 688 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:38:05 +0000] "GET /container/latest/main.91e57e8a5aeb386e1bcd.js HTTP/1.1" 404 184 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:38:05 +0000] \"GET /container/latest/main.91e57e8a5aeb386e1bcd.js HTTP/1.1\" 404 184 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:38:05 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:38:05 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:38:11 +0000] "GET /weather HTTP/1.1" 404 146 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:38:11 +0000] \"GET /weather HTTP/1.1\" 404 146 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:38:15 +0000] "GET /container HTTP/1.1" 404 148 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:38:15 +0000] \"GET /container HTTP/1.1\" 404 148 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:38:33 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:38:33 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:38:49 +0000] "GET /remoteEntry.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:38:49 +0000] \"GET /remoteEntry.js HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:38:49 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5005/remoteEntry.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:38:49 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:5005/remoteEntry.js\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[debug] [2024-09-11T13:39:13.286Z] Received signal SIGINT (Ctrl-C) 1
+[debug] [2024-09-11T13:41:27.069Z] ----------------------------------------------------------------------
+[debug] [2024-09-11T13:41:27.070Z] Command:       C:\Users\user\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
+[debug] [2024-09-11T13:41:27.071Z] CLI Version:   13.16.0
+[debug] [2024-09-11T13:41:27.071Z] Platform:      win32
+[debug] [2024-09-11T13:41:27.071Z] Node Version:  v18.5.0
+[debug] [2024-09-11T13:41:27.071Z] Time:          Wed Sep 11 2024 18:11:27 GMT+0430 (Iran Daylight Time)
+[debug] [2024-09-11T13:41:27.071Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-09-11T12:57:57.856Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-09-11T12:57:57.856Z] > authorizing via signed-in user (artificial.intelligence.develop@gmail.com)
+[debug] [2024-09-11T13:41:27.145Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-11T13:41:27.146Z] > authorizing via signed-in user (artificial.intelligence.develop@gmail.com)
 [info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
-[debug] [2024-09-11T12:57:57.864Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T12:57:57.864Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T12:57:57.865Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-09-11T13:41:27.153Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-09-11T13:41:27.153Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-09-11T13:41:27.154Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
 [warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project weather-test-86064. This may result in unexpected behavior. 
-[debug] [2024-09-11T12:57:57.869Z] [hub] writing locator at C:\Users\user\AppData\Local\Temp\hub-weather-test-86064.json
-[debug] [2024-09-11T12:57:57.884Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 
-[debug] [2024-09-11T12:57:59.414Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 200
-[debug] [2024-09-11T12:57:59.414Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites {"sites":[{"name":"projects/weather-test-86064/sites/weather-test-86064","defaultUrl":"https://weather-test-86064.web.app","type":"DEFAULT_SITE"}]}
-[debug] [2024-09-11T12:57:59.414Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config [none]
-[debug] [2024-09-11T12:58:00.552Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config 200
-[debug] [2024-09-11T12:58:00.553Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config {"projectId":"weather-test-86064","storageBucket":"weather-test-86064.appspot.com","apiKey":"AIzaSyCqR7YNATcczprjcURgTvxsb9YLt-dQ4cQ","authDomain":"weather-test-86064.firebaseapp.com","messagingSenderId":"501333426279"}
-[debug] [2024-09-11T12:58:00.557Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 [none]
-[debug] [2024-09-11T12:58:01.195Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 200
-[debug] [2024-09-11T12:58:01.196Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 {"projectId":"weather-test-86064","projectNumber":"501333426279","displayName":"weather-test","name":"projects/weather-test-86064","resources":{"hostingSite":"weather-test-86064"},"state":"ACTIVE","etag":"1_0a770bb4-89fc-4a5e-905e-206af3b6097a"}
-[info] i  hosting[weather-test-86064]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
-[info] +  hosting[weather-test-86064]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
-[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
-[info] 
-┌─────────────────────────────────────────────────────────────┐
-│ ✔  All emulators ready! It is now safe to connect your app. │
-└─────────────────────────────────────────────────────────────┘
-
-┌──────────┬────────────────┐
-│ Emulator │ Host:Port      │
-├──────────┼────────────────┤
-│ Hosting  │ 127.0.0.1:5000 │
-└──────────┴────────────────┘
-  Emulator Hub running at 127.0.0.1:4400
-  Other reserved ports: 4500
-
-Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
- 
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:08 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:08 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:08.319Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-app-compat.js [none]
-[debug] [2024-09-11T12:58:08.331Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-auth-compat.js [none]
-[debug] [2024-09-11T12:58:08.334Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-database-compat.js [none]
-[debug] [2024-09-11T12:58:08.336Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore-compat.js [none]
-[debug] [2024-09-11T12:58:08.338Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-functions-compat.js [none]
-[debug] [2024-09-11T12:58:08.339Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-messaging-compat.js [none]
-[debug] [2024-09-11T12:58:08.690Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-app-compat.js 200
-[debug] [2024-09-11T12:58:08.690Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-app-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:08 +0000] "GET /__/firebase/10.13.1/firebase-app-compat.js HTTP/1.1" 200 10053 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:08 +0000] \"GET /__/firebase/10.13.1/firebase-app-compat.js HTTP/1.1\" 200 10053 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:08.700Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-storage-compat.js [none]
-[debug] [2024-09-11T12:58:08.746Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore-compat.js 200
-[debug] [2024-09-11T12:58:08.746Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore-compat.js [stream]
-[debug] [2024-09-11T12:58:08.747Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-functions-compat.js 200
-[debug] [2024-09-11T12:58:08.747Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-functions-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:08 +0000] "GET /__/firebase/10.13.1/firebase-functions-compat.js HTTP/1.1" 200 3267 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:08 +0000] \"GET /__/firebase/10.13.1/firebase-functions-compat.js HTTP/1.1\" 200 3267 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:08.749Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-messaging-compat.js 200
-[debug] [2024-09-11T12:58:08.750Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-messaging-compat.js [stream]
-[debug] [2024-09-11T12:58:08.751Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics-compat.js [none]
-[debug] [2024-09-11T12:58:08.759Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-auth-compat.js 200
-[debug] [2024-09-11T12:58:08.759Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-auth-compat.js [stream]
-[debug] [2024-09-11T12:58:08.760Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-database-compat.js 200
-[debug] [2024-09-11T12:58:08.760Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-database-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:08 +0000] "GET /__/firebase/10.13.1/firebase-messaging-compat.js HTTP/1.1" 200 9989 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:08 +0000] \"GET /__/firebase/10.13.1/firebase-messaging-compat.js HTTP/1.1\" 200 9989 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:08.767Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-remote-config-compat.js [none]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:08 +0000] "GET /__/firebase/10.13.1/firebase-auth-compat.js HTTP/1.1" 200 39641 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:08 +0000] \"GET /__/firebase/10.13.1/firebase-auth-compat.js HTTP/1.1\" 200 39641 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:08.873Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-performance-compat.js [none]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:08 +0000] "GET /__/firebase/10.13.1/firebase-database-compat.js HTTP/1.1" 200 48014 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:08 +0000] \"GET /__/firebase/10.13.1/firebase-database-compat.js HTTP/1.1\" 200 48014 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:08 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:08 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:08 +0000] "GET /__/firebase/10.13.1/firebase-firestore-compat.js HTTP/1.1" 200 101808 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:08 +0000] \"GET /__/firebase/10.13.1/firebase-firestore-compat.js HTTP/1.1\" 200 101808 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:09.082Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-storage-compat.js 200
-[debug] [2024-09-11T12:58:09.082Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-storage-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:09 +0000] "GET /__/firebase/10.13.1/firebase-storage-compat.js HTTP/1.1" 200 12991 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:09 +0000] \"GET /__/firebase/10.13.1/firebase-storage-compat.js HTTP/1.1\" 200 12991 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:09.125Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics-compat.js 200
-[debug] [2024-09-11T12:58:09.125Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:09 +0000] "GET /__/firebase/10.13.1/firebase-analytics-compat.js HTTP/1.1" 200 9215 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:09 +0000] \"GET /__/firebase/10.13.1/firebase-analytics-compat.js HTTP/1.1\" 200 9215 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:09.130Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-remote-config-compat.js 200
-[debug] [2024-09-11T12:58:09.131Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-remote-config-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:09 +0000] "GET /__/firebase/10.13.1/firebase-remote-config-compat.js HTTP/1.1" 200 8815 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:09 +0000] \"GET /__/firebase/10.13.1/firebase-remote-config-compat.js HTTP/1.1\" 200 8815 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:09.261Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-performance-compat.js 200
-[debug] [2024-09-11T12:58:09.261Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-performance-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:09 +0000] "GET /__/firebase/10.13.1/firebase-performance-compat.js HTTP/1.1" 200 10251 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:09 +0000] \"GET /__/firebase/10.13.1/firebase-performance-compat.js HTTP/1.1\" 200 10251 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:09 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:09 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:11 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:11 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:11.658Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-app-compat.js [none]
-[debug] [2024-09-11T12:58:11.660Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-auth-compat.js [none]
-[debug] [2024-09-11T12:58:11.664Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-database-compat.js [none]
-[debug] [2024-09-11T12:58:11.666Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore-compat.js [none]
-[debug] [2024-09-11T12:58:11.667Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-functions-compat.js [none]
-[debug] [2024-09-11T12:58:11.669Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-messaging-compat.js [none]
-[debug] [2024-09-11T12:58:12.050Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-database-compat.js 200
-[debug] [2024-09-11T12:58:12.050Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-database-compat.js [stream]
-[debug] [2024-09-11T12:58:12.054Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-app-compat.js 200
-[debug] [2024-09-11T12:58:12.054Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-app-compat.js [stream]
-[debug] [2024-09-11T12:58:12.056Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-functions-compat.js 200
-[debug] [2024-09-11T12:58:12.056Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-functions-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] "GET /__/firebase/10.13.1/firebase-functions-compat.js HTTP/1.1" 200 3267 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] \"GET /__/firebase/10.13.1/firebase-functions-compat.js HTTP/1.1\" 200 3267 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:12.059Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore-compat.js 200
-[debug] [2024-09-11T12:58:12.059Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore-compat.js [stream]
-[debug] [2024-09-11T12:58:12.060Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-storage-compat.js [none]
-[debug] [2024-09-11T12:58:12.065Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-messaging-compat.js 200
-[debug] [2024-09-11T12:58:12.065Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-messaging-compat.js [stream]
-[debug] [2024-09-11T12:58:12.066Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-auth-compat.js 200
-[debug] [2024-09-11T12:58:12.067Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-auth-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] "GET /__/firebase/10.13.1/firebase-app-compat.js HTTP/1.1" 200 10053 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] \"GET /__/firebase/10.13.1/firebase-app-compat.js HTTP/1.1\" 200 10053 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] "GET /__/firebase/10.13.1/firebase-messaging-compat.js HTTP/1.1" 200 9989 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] \"GET /__/firebase/10.13.1/firebase-messaging-compat.js HTTP/1.1\" 200 9989 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:12.071Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics-compat.js [none]
-[debug] [2024-09-11T12:58:12.073Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-remote-config-compat.js [none]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] "GET /__/firebase/10.13.1/firebase-auth-compat.js HTTP/1.1" 200 39641 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] \"GET /__/firebase/10.13.1/firebase-auth-compat.js HTTP/1.1\" 200 39641 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:12.225Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-performance-compat.js [none]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] "GET /__/firebase/10.13.1/firebase-database-compat.js HTTP/1.1" 200 48014 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] \"GET /__/firebase/10.13.1/firebase-database-compat.js HTTP/1.1\" 200 48014 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] "GET /__/firebase/10.13.1/firebase-firestore-compat.js HTTP/1.1" 200 101808 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] \"GET /__/firebase/10.13.1/firebase-firestore-compat.js HTTP/1.1\" 200 101808 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:12.509Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics-compat.js 200
-[debug] [2024-09-11T12:58:12.510Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] "GET /__/firebase/10.13.1/firebase-analytics-compat.js HTTP/1.1" 200 9215 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] \"GET /__/firebase/10.13.1/firebase-analytics-compat.js HTTP/1.1\" 200 9215 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:12.512Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-remote-config-compat.js 200
-[debug] [2024-09-11T12:58:12.512Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-remote-config-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] "GET /__/firebase/10.13.1/firebase-remote-config-compat.js HTTP/1.1" 200 8815 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] \"GET /__/firebase/10.13.1/firebase-remote-config-compat.js HTTP/1.1\" 200 8815 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:12.514Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-storage-compat.js 200
-[debug] [2024-09-11T12:58:12.514Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-storage-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] "GET /__/firebase/10.13.1/firebase-storage-compat.js HTTP/1.1" 200 12991 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] \"GET /__/firebase/10.13.1/firebase-storage-compat.js HTTP/1.1\" 200 12991 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:12.604Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-performance-compat.js 200
-[debug] [2024-09-11T12:58:12.604Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.13.1/firebase-performance-compat.js [stream]
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] "GET /__/firebase/10.13.1/firebase-performance-compat.js HTTP/1.1" 200 10251 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] \"GET /__/firebase/10.13.1/firebase-performance-compat.js HTTP/1.1\" 200 10251 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:12 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:58:15.677Z] Received signal SIGINT (Ctrl-C) 1
-[debug] [2024-09-11T12:58:41.337Z] ----------------------------------------------------------------------
-[debug] [2024-09-11T12:58:41.339Z] Command:       C:\Users\user\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
-[debug] [2024-09-11T12:58:41.339Z] CLI Version:   13.16.0
-[debug] [2024-09-11T12:58:41.339Z] Platform:      win32
-[debug] [2024-09-11T12:58:41.339Z] Node Version:  v18.5.0
-[debug] [2024-09-11T12:58:41.340Z] Time:          Wed Sep 11 2024 17:28:41 GMT+0430 (Iran Daylight Time)
-[debug] [2024-09-11T12:58:41.340Z] ----------------------------------------------------------------------
+[debug] [2024-09-11T13:41:27.158Z] [hub] writing locator at C:\Users\user\AppData\Local\Temp\hub-weather-test-86064.json
+[debug] [2024-09-11T13:41:27.172Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 
+[debug] [2024-09-11T13:41:27.872Z] Received signal SIGINT (Ctrl-C) 1
+[debug] [2024-09-11T13:41:40.180Z] ----------------------------------------------------------------------
+[debug] [2024-09-11T13:41:40.182Z] Command:       C:\Users\user\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
+[debug] [2024-09-11T13:41:40.182Z] CLI Version:   13.16.0
+[debug] [2024-09-11T13:41:40.182Z] Platform:      win32
+[debug] [2024-09-11T13:41:40.182Z] Node Version:  v18.5.0
+[debug] [2024-09-11T13:41:40.183Z] Time:          Wed Sep 11 2024 18:11:40 GMT+0430 (Iran Daylight Time)
+[debug] [2024-09-11T13:41:40.183Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-09-11T12:58:41.418Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-09-11T12:58:41.418Z] > authorizing via signed-in user (artificial.intelligence.develop@gmail.com)
+[debug] [2024-09-11T13:41:40.259Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-11T13:41:40.259Z] > authorizing via signed-in user (artificial.intelligence.develop@gmail.com)
 [info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
-[debug] [2024-09-11T12:58:41.426Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T12:58:41.426Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T12:58:41.426Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-09-11T13:41:40.267Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-09-11T13:41:40.267Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-09-11T13:41:40.268Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
 [warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project weather-test-86064. This may result in unexpected behavior. 
-[debug] [2024-09-11T12:58:41.431Z] [hub] writing locator at C:\Users\user\AppData\Local\Temp\hub-weather-test-86064.json
-[debug] [2024-09-11T12:58:41.447Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 
-[debug] [2024-09-11T12:58:42.922Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 200
-[debug] [2024-09-11T12:58:42.922Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites {"sites":[{"name":"projects/weather-test-86064/sites/weather-test-86064","defaultUrl":"https://weather-test-86064.web.app","type":"DEFAULT_SITE"}]}
-[debug] [2024-09-11T12:58:42.923Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config [none]
-[debug] [2024-09-11T12:58:43.907Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config 200
-[debug] [2024-09-11T12:58:43.907Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config {"projectId":"weather-test-86064","storageBucket":"weather-test-86064.appspot.com","apiKey":"AIzaSyCqR7YNATcczprjcURgTvxsb9YLt-dQ4cQ","authDomain":"weather-test-86064.firebaseapp.com","messagingSenderId":"501333426279"}
-[debug] [2024-09-11T12:58:43.913Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 [none]
-[debug] [2024-09-11T12:58:44.532Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 200
-[debug] [2024-09-11T12:58:44.532Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 {"projectId":"weather-test-86064","projectNumber":"501333426279","displayName":"weather-test","name":"projects/weather-test-86064","resources":{"hostingSite":"weather-test-86064"},"state":"ACTIVE","etag":"1_0a770bb4-89fc-4a5e-905e-206af3b6097a"}
-[info] i  hosting[weather-test-86064]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
-[info] +  hosting[weather-test-86064]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2024-09-11T13:41:40.273Z] [hub] writing locator at C:\Users\user\AppData\Local\Temp\hub-weather-test-86064.json
+[debug] [2024-09-11T13:41:40.291Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 
+[debug] [2024-09-11T13:41:41.761Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 200
+[debug] [2024-09-11T13:41:41.762Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites {"sites":[{"name":"projects/weather-test-86064/sites/weather-test-86064","defaultUrl":"https://weather-test-86064.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-09-11T13:41:41.762Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config [none]
+[debug] [2024-09-11T13:41:42.604Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config 200
+[debug] [2024-09-11T13:41:42.604Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config {"projectId":"weather-test-86064","storageBucket":"weather-test-86064.appspot.com","apiKey":"AIzaSyCqR7YNATcczprjcURgTvxsb9YLt-dQ4cQ","authDomain":"weather-test-86064.firebaseapp.com","messagingSenderId":"501333426279"}
+[debug] [2024-09-11T13:41:42.608Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 [none]
+[debug] [2024-09-11T13:41:43.249Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 200
+[debug] [2024-09-11T13:41:43.250Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 {"projectId":"weather-test-86064","projectNumber":"501333426279","displayName":"weather-test","name":"projects/weather-test-86064","resources":{"hostingSite":"weather-test-86064"},"state":"ACTIVE","etag":"1_0a770bb4-89fc-4a5e-905e-206af3b6097a"}
+[info] i  hosting[container]: Serving hosting files from: container/dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mcontainer/dist\u001b[22m"}}
+[info] +  hosting[container]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting[weather]: Serving hosting files from: weather/dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mweather/dist\u001b[22m"}}
+[info] +  hosting[weather]: Local server: http://127.0.0.1:5005 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5005\u001b[22m\u001b[24m"}}
 [warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
 [info] 
 ┌─────────────────────────────────────────────────────────────┐
@@ -253,44 +110,46 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 │ Hosting  │ 127.0.0.1:5000 │
 └──────────┴────────────────┘
   Emulator Hub running at 127.0.0.1:4400
-  Other reserved ports: 4500
+  Other reserved ports: 4500, 5005
 
 Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
  
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:12:58:47 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:12:58:47 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T12:59:16.205Z] Received signal SIGINT (Ctrl-C) 1
-[debug] [2024-09-11T13:09:29.715Z] ----------------------------------------------------------------------
-[debug] [2024-09-11T13:09:29.717Z] Command:       C:\Users\user\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
-[debug] [2024-09-11T13:09:29.717Z] CLI Version:   13.16.0
-[debug] [2024-09-11T13:09:29.717Z] Platform:      win32
-[debug] [2024-09-11T13:09:29.717Z] Node Version:  v18.5.0
-[debug] [2024-09-11T13:09:29.718Z] Time:          Wed Sep 11 2024 17:39:29 GMT+0430 (Iran Daylight Time)
-[debug] [2024-09-11T13:09:29.718Z] ----------------------------------------------------------------------
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:41:57 +0000] "GET /container/latest/main.91e57e8a5aeb386e1bcd.js HTTP/1.1" 404 184 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:41:57 +0000] \"GET /container/latest/main.91e57e8a5aeb386e1bcd.js HTTP/1.1\" 404 184 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:42:01 +0000] "GET / HTTP/1.1" 200 688 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:42:01 +0000] \"GET / HTTP/1.1\" 200 688 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:42:01 +0000] "GET /container/latest/main.e173649abf1401f7248e.js HTTP/1.1" 404 184 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:42:01 +0000] \"GET /container/latest/main.e173649abf1401f7248e.js HTTP/1.1\" 404 184 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:42:05 +0000] "GET / HTTP/1.1" 200 688 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:42:05 +0000] \"GET / HTTP/1.1\" 200 688 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:42:06 +0000] "GET /container/latest/main.e173649abf1401f7248e.js HTTP/1.1" 404 184 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:42:06 +0000] \"GET /container/latest/main.e173649abf1401f7248e.js HTTP/1.1\" 404 184 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:42:06 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:42:06 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[debug] [2024-09-11T13:42:33.473Z] Received signal SIGINT (Ctrl-C) 1
+[debug] [2024-09-11T13:42:36.133Z] ----------------------------------------------------------------------
+[debug] [2024-09-11T13:42:36.135Z] Command:       C:\Users\user\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
+[debug] [2024-09-11T13:42:36.135Z] CLI Version:   13.16.0
+[debug] [2024-09-11T13:42:36.135Z] Platform:      win32
+[debug] [2024-09-11T13:42:36.135Z] Node Version:  v18.5.0
+[debug] [2024-09-11T13:42:36.135Z] Time:          Wed Sep 11 2024 18:12:36 GMT+0430 (Iran Daylight Time)
+[debug] [2024-09-11T13:42:36.136Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-09-11T13:09:29.796Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-09-11T13:09:29.797Z] > authorizing via signed-in user (artificial.intelligence.develop@gmail.com)
+[debug] [2024-09-11T13:42:36.208Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-11T13:42:36.208Z] > authorizing via signed-in user (artificial.intelligence.develop@gmail.com)
 [info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
-[debug] [2024-09-11T13:09:29.805Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T13:09:29.805Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T13:09:29.805Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-09-11T13:42:36.216Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-09-11T13:42:36.216Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-09-11T13:42:36.216Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
 [warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project weather-test-86064. This may result in unexpected behavior. 
-[debug] [2024-09-11T13:09:29.809Z] [hub] writing locator at C:\Users\user\AppData\Local\Temp\hub-weather-test-86064.json
-[debug] [2024-09-11T13:09:29.825Z] > refreshing access token with scopes: []
-[debug] [2024-09-11T13:09:29.826Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
-[debug] [2024-09-11T13:09:29.826Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2024-09-11T13:09:30.412Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
-[debug] [2024-09-11T13:09:30.412Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2024-09-11T13:09:30.430Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 
-[debug] [2024-09-11T13:09:32.117Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 200
-[debug] [2024-09-11T13:09:32.117Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites {"sites":[{"name":"projects/weather-test-86064/sites/weather-test-86064","defaultUrl":"https://weather-test-86064.web.app","type":"DEFAULT_SITE"}]}
-[debug] [2024-09-11T13:09:32.117Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config [none]
-[debug] [2024-09-11T13:09:33.197Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config 200
-[debug] [2024-09-11T13:09:33.198Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config {"projectId":"weather-test-86064","storageBucket":"weather-test-86064.appspot.com","apiKey":"AIzaSyCqR7YNATcczprjcURgTvxsb9YLt-dQ4cQ","authDomain":"weather-test-86064.firebaseapp.com","messagingSenderId":"501333426279"}
-[debug] [2024-09-11T13:09:33.202Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 [none]
-[debug] [2024-09-11T13:09:33.825Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 200
-[debug] [2024-09-11T13:09:33.826Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 {"projectId":"weather-test-86064","projectNumber":"501333426279","displayName":"weather-test","name":"projects/weather-test-86064","resources":{"hostingSite":"weather-test-86064"},"state":"ACTIVE","etag":"1_0a770bb4-89fc-4a5e-905e-206af3b6097a"}
-[info] i  hosting[weather-test-86064]: Serving hosting files from: container/dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mcontainer/dist\u001b[22m"}}
-[info] +  hosting[weather-test-86064]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2024-09-11T13:42:36.221Z] [hub] writing locator at C:\Users\user\AppData\Local\Temp\hub-weather-test-86064.json
+[debug] [2024-09-11T13:42:36.233Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 
+[debug] [2024-09-11T13:42:37.852Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 200
+[debug] [2024-09-11T13:42:37.852Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites {"sites":[{"name":"projects/weather-test-86064/sites/weather-test-86064","defaultUrl":"https://weather-test-86064.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-09-11T13:42:37.852Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config [none]
+[debug] [2024-09-11T13:42:38.789Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config 200
+[debug] [2024-09-11T13:42:38.789Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config {"projectId":"weather-test-86064","storageBucket":"weather-test-86064.appspot.com","apiKey":"AIzaSyCqR7YNATcczprjcURgTvxsb9YLt-dQ4cQ","authDomain":"weather-test-86064.firebaseapp.com","messagingSenderId":"501333426279"}
+[debug] [2024-09-11T13:42:38.793Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 [none]
+[debug] [2024-09-11T13:42:39.393Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 200
+[debug] [2024-09-11T13:42:39.393Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 {"projectId":"weather-test-86064","projectNumber":"501333426279","displayName":"weather-test","name":"projects/weather-test-86064","resources":{"hostingSite":"weather-test-86064"},"state":"ACTIVE","etag":"1_0a770bb4-89fc-4a5e-905e-206af3b6097a"}
+[info] i  hosting[container]: Serving hosting files from: container/dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mcontainer/dist\u001b[22m"}}
+[info] +  hosting[container]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting[weather]: Serving hosting files from: weather/dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mweather/dist\u001b[22m"}}
+[info] +  hosting[weather]: Local server: http://127.0.0.1:5005 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5005\u001b[22m\u001b[24m"}}
 [warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
 [info] 
 ┌─────────────────────────────────────────────────────────────┐
@@ -303,84 +162,50 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 │ Hosting  │ 127.0.0.1:5000 │
 └──────────┴────────────────┘
   Emulator Hub running at 127.0.0.1:4400
-  Other reserved ports: 4500
+  Other reserved ports: 4500, 5005
 
 Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
  
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:09:43 +0000] "GET / HTTP/1.1" 200 688 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:09:43 +0000] \"GET / HTTP/1.1\" 200 688 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:09:43 +0000] "GET /container/latest/main.91e57e8a5aeb386e1bcd.js HTTP/1.1" 200 688 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:09:43 +0000] \"GET /container/latest/main.91e57e8a5aeb386e1bcd.js HTTP/1.1\" 200 688 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:09:43 +0000] "GET /favicon.ico HTTP/1.1" 304 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:09:43 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T13:09:47.037Z] Received signal SIGINT (Ctrl-C) 1
-[debug] [2024-09-11T13:11:34.002Z] ----------------------------------------------------------------------
-[debug] [2024-09-11T13:11:34.004Z] Command:       C:\Users\user\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
-[debug] [2024-09-11T13:11:34.005Z] CLI Version:   13.16.0
-[debug] [2024-09-11T13:11:34.005Z] Platform:      win32
-[debug] [2024-09-11T13:11:34.005Z] Node Version:  v18.5.0
-[debug] [2024-09-11T13:11:34.005Z] Time:          Wed Sep 11 2024 17:41:34 GMT+0430 (Iran Daylight Time)
-[debug] [2024-09-11T13:11:34.005Z] ----------------------------------------------------------------------
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] "GET / HTTP/1.1" 200 671 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] \"GET / HTTP/1.1\" 200 671 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] "GET /main.af84a1938c52ae33646d.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] \"GET /main.af84a1938c52ae33646d.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] "GET /772.4c30aa6fc3a0417478fc.js HTTP/1.1" 200 278 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] \"GET /772.4c30aa6fc3a0417478fc.js HTTP/1.1\" 200 278 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] "GET /remoteEntry.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] \"GET /remoteEntry.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] "GET /weather/latest/540.23beee6c3c25d2a6b49e.js HTTP/1.1" 404 181 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] \"GET /weather/latest/540.23beee6c3c25d2a6b49e.js HTTP/1.1\" 404 181 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] "GET /weather/latest/393.3feb2d74944a88d38209.js HTTP/1.1" 404 181 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] \"GET /weather/latest/393.3feb2d74944a88d38209.js HTTP/1.1\" 404 181 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] "GET /weather/latest/961.a2dfd6d98d06f4f3c8ed.js HTTP/1.1" 404 181 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] \"GET /weather/latest/961.a2dfd6d98d06f4f3c8ed.js HTTP/1.1\" 404 181 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] "GET /weather/latest/447.d1a17cd1b33a316875ec.js HTTP/1.1" 404 181 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] \"GET /weather/latest/447.d1a17cd1b33a316875ec.js HTTP/1.1\" 404 181 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] "GET /weather/latest/729.4dc13fea09d580e8c22b.js HTTP/1.1" 404 181 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] \"GET /weather/latest/729.4dc13fea09d580e8c22b.js HTTP/1.1\" 404 181 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:42:42 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[debug] [2024-09-11T13:43:19.231Z] Received signal SIGINT (Ctrl-C) 1
+[debug] [2024-09-11T13:43:22.385Z] ----------------------------------------------------------------------
+[debug] [2024-09-11T13:43:22.386Z] Command:       C:\Users\user\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
+[debug] [2024-09-11T13:43:22.386Z] CLI Version:   13.16.0
+[debug] [2024-09-11T13:43:22.386Z] Platform:      win32
+[debug] [2024-09-11T13:43:22.386Z] Node Version:  v18.5.0
+[debug] [2024-09-11T13:43:22.387Z] Time:          Wed Sep 11 2024 18:13:22 GMT+0430 (Iran Daylight Time)
+[debug] [2024-09-11T13:43:22.387Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-09-11T13:11:34.082Z] Field ".hosting.public" in "firebase.json" is possibly invalid: should be string
-[debug] [2024-09-11T13:11:34.082Z] Field ".hosting" in "firebase.json" is possibly invalid: should be array
-[debug] [2024-09-11T13:11:34.082Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
-[debug] [2024-09-11T13:11:34.086Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-09-11T13:11:34.087Z] > authorizing via signed-in user (artificial.intelligence.develop@gmail.com)
+[debug] [2024-09-11T13:43:22.460Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-11T13:43:22.460Z] > authorizing via signed-in user (artificial.intelligence.develop@gmail.com)
 [info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
-[debug] [2024-09-11T13:11:34.094Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T13:11:34.094Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T13:11:34.095Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-09-11T13:43:22.469Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-09-11T13:43:22.469Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-09-11T13:43:22.469Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
 [warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project weather-test-86064. This may result in unexpected behavior. 
-[debug] [2024-09-11T13:11:34.099Z] [hub] writing locator at C:\Users\user\AppData\Local\Temp\hub-weather-test-86064.json
-[debug] [2024-09-11T13:11:34.112Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 
-[debug] [2024-09-11T13:11:35.713Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 200
-[debug] [2024-09-11T13:11:35.713Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites {"sites":[{"name":"projects/weather-test-86064/sites/weather-test-86064","defaultUrl":"https://weather-test-86064.web.app","type":"DEFAULT_SITE"}]}
-[debug] [2024-09-11T13:11:35.713Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config [none]
-[debug] [2024-09-11T13:11:36.573Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config 200
-[debug] [2024-09-11T13:11:36.573Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config {"projectId":"weather-test-86064","storageBucket":"weather-test-86064.appspot.com","apiKey":"AIzaSyCqR7YNATcczprjcURgTvxsb9YLt-dQ4cQ","authDomain":"weather-test-86064.firebaseapp.com","messagingSenderId":"501333426279"}
-[debug] [2024-09-11T13:11:36.578Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 [none]
-[debug] [2024-09-11T13:11:37.218Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 200
-[debug] [2024-09-11T13:11:37.219Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 {"projectId":"weather-test-86064","projectNumber":"501333426279","displayName":"weather-test","name":"projects/weather-test-86064","resources":{"hostingSite":"weather-test-86064"},"state":"ACTIVE","etag":"1_0a770bb4-89fc-4a5e-905e-206af3b6097a"}
-[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
-[info] i  hosting: Stopping Hosting Emulator {"metadata":{"emulator":{"name":"hosting"},"message":"Stopping Hosting Emulator"}}
-[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
-[debug] [2024-09-11T13:11:37.622Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Array
-    at new NodeError (node:internal/errors:388:5)
-    at validateString (node:internal/validators:114:11)
-    at Object.resolve (node:path:167:9)
-    at resolveProjectPath (C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\projectPath.js:14:17)
-    at validateOne (C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\hosting\config.js:104:84)
-    at validate (C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\hosting\config.js:85:9)
-    at Object.hostingConfig (C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\hosting\config.js:183:9)
-    at Object.start (C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\serve\hosting.js:91:28)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async HostingEmulator.start (C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\emulator\hostingEmulator.js:14:27)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2024-09-11T13:13:16.167Z] ----------------------------------------------------------------------
-[debug] [2024-09-11T13:13:16.169Z] Command:       C:\Users\user\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
-[debug] [2024-09-11T13:13:16.169Z] CLI Version:   13.16.0
-[debug] [2024-09-11T13:13:16.169Z] Platform:      win32
-[debug] [2024-09-11T13:13:16.169Z] Node Version:  v18.5.0
-[debug] [2024-09-11T13:13:16.170Z] Time:          Wed Sep 11 2024 17:43:16 GMT+0430 (Iran Daylight Time)
-[debug] [2024-09-11T13:13:16.170Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2024-09-11T13:13:16.251Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-09-11T13:13:16.251Z] > authorizing via signed-in user (artificial.intelligence.develop@gmail.com)
-[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
-[debug] [2024-09-11T13:13:16.260Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T13:13:16.260Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T13:13:16.260Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[debug] [2024-09-11T13:13:16.264Z] [hub] writing locator at C:\Users\user\AppData\Local\Temp\hub-weather-test-86064.json
-[debug] [2024-09-11T13:13:16.278Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 
-[debug] [2024-09-11T13:13:17.792Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 200
-[debug] [2024-09-11T13:13:17.793Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites {"sites":[{"name":"projects/weather-test-86064/sites/weather-test-86064","defaultUrl":"https://weather-test-86064.web.app","type":"DEFAULT_SITE"}]}
-[debug] [2024-09-11T13:13:17.793Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config [none]
-[debug] [2024-09-11T13:13:18.751Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config 200
-[debug] [2024-09-11T13:13:18.752Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config {"projectId":"weather-test-86064","storageBucket":"weather-test-86064.appspot.com","apiKey":"AIzaSyCqR7YNATcczprjcURgTvxsb9YLt-dQ4cQ","authDomain":"weather-test-86064.firebaseapp.com","messagingSenderId":"501333426279"}
-[debug] [2024-09-11T13:13:18.755Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 [none]
-[debug] [2024-09-11T13:13:19.381Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 200
-[debug] [2024-09-11T13:13:19.381Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 {"projectId":"weather-test-86064","projectNumber":"501333426279","displayName":"weather-test","name":"projects/weather-test-86064","resources":{"hostingSite":"weather-test-86064"},"state":"ACTIVE","etag":"1_0a770bb4-89fc-4a5e-905e-206af3b6097a"}
-[info] i  hosting[weather-test-86064]: Serving hosting files from: container/dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mcontainer/dist\u001b[22m"}}
-[info] +  hosting[weather-test-86064]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2024-09-11T13:43:22.474Z] [hub] writing locator at C:\Users\user\AppData\Local\Temp\hub-weather-test-86064.json
+[debug] [2024-09-11T13:43:22.490Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 
+[debug] [2024-09-11T13:43:24.261Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 200
+[debug] [2024-09-11T13:43:24.261Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites {"sites":[{"name":"projects/weather-test-86064/sites/weather-test-86064","defaultUrl":"https://weather-test-86064.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-09-11T13:43:24.261Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config [none]
+[debug] [2024-09-11T13:43:25.458Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config 200
+[debug] [2024-09-11T13:43:25.458Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config {"projectId":"weather-test-86064","storageBucket":"weather-test-86064.appspot.com","apiKey":"AIzaSyCqR7YNATcczprjcURgTvxsb9YLt-dQ4cQ","authDomain":"weather-test-86064.firebaseapp.com","messagingSenderId":"501333426279"}
+[debug] [2024-09-11T13:43:25.461Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 [none]
+[debug] [2024-09-11T13:43:26.132Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 200
+[debug] [2024-09-11T13:43:26.133Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 {"projectId":"weather-test-86064","projectNumber":"501333426279","displayName":"weather-test","name":"projects/weather-test-86064","resources":{"hostingSite":"weather-test-86064"},"state":"ACTIVE","etag":"1_0a770bb4-89fc-4a5e-905e-206af3b6097a"}
+[info] i  hosting[container]: Serving hosting files from: container/dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mcontainer/dist\u001b[22m"}}
+[info] +  hosting[container]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting[weather]: Serving hosting files from: weather/dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mweather/dist\u001b[22m"}}
+[info] +  hosting[weather]: Local server: http://127.0.0.1:5005 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5005\u001b[22m\u001b[24m"}}
 [warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
 [info] 
 ┌─────────────────────────────────────────────────────────────┐
@@ -393,147 +218,36 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 │ Hosting  │ 127.0.0.1:5000 │
 └──────────┴────────────────┘
   Emulator Hub running at 127.0.0.1:4400
-  Other reserved ports: 4500
+  Other reserved ports: 4500, 5005
 
 Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
  
-[debug] [2024-09-11T13:13:25.741Z] Received signal SIGINT (Ctrl-C) 1
-[debug] [2024-09-11T13:13:32.320Z] ----------------------------------------------------------------------
-[debug] [2024-09-11T13:13:32.321Z] Command:       C:\Users\user\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
-[debug] [2024-09-11T13:13:32.322Z] CLI Version:   13.16.0
-[debug] [2024-09-11T13:13:32.322Z] Platform:      win32
-[debug] [2024-09-11T13:13:32.322Z] Node Version:  v18.5.0
-[debug] [2024-09-11T13:13:32.322Z] Time:          Wed Sep 11 2024 17:43:32 GMT+0430 (Iran Daylight Time)
-[debug] [2024-09-11T13:13:32.322Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2024-09-11T13:13:32.399Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-09-11T13:13:32.399Z] > authorizing via signed-in user (artificial.intelligence.develop@gmail.com)
-[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
-[debug] [2024-09-11T13:13:32.408Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T13:13:32.408Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T13:13:32.408Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project weather-test-86064. This may result in unexpected behavior. 
-[debug] [2024-09-11T13:13:32.412Z] [hub] writing locator at C:\Users\user\AppData\Local\Temp\hub-weather-test-86064.json
-[debug] [2024-09-11T13:13:32.429Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 
-[debug] [2024-09-11T13:13:33.946Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 200
-[debug] [2024-09-11T13:13:33.946Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites {"sites":[{"name":"projects/weather-test-86064/sites/weather-test-86064","defaultUrl":"https://weather-test-86064.web.app","type":"DEFAULT_SITE"}]}
-[debug] [2024-09-11T13:13:33.946Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config [none]
-[debug] [2024-09-11T13:13:34.936Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config 200
-[debug] [2024-09-11T13:13:34.937Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config {"projectId":"weather-test-86064","storageBucket":"weather-test-86064.appspot.com","apiKey":"AIzaSyCqR7YNATcczprjcURgTvxsb9YLt-dQ4cQ","authDomain":"weather-test-86064.firebaseapp.com","messagingSenderId":"501333426279"}
-[debug] [2024-09-11T13:13:34.942Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 [none]
-[debug] [2024-09-11T13:13:35.552Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 200
-[debug] [2024-09-11T13:13:35.552Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 {"projectId":"weather-test-86064","projectNumber":"501333426279","displayName":"weather-test","name":"projects/weather-test-86064","resources":{"hostingSite":"weather-test-86064"},"state":"ACTIVE","etag":"1_0a770bb4-89fc-4a5e-905e-206af3b6097a"}
-[info] i  hosting[weather-test-86064]: Serving hosting files from: container/dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mcontainer/dist\u001b[22m"}}
-[info] +  hosting[weather-test-86064]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
-[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
-[info] 
-┌─────────────────────────────────────────────────────────────┐
-│ ✔  All emulators ready! It is now safe to connect your app. │
-└─────────────────────────────────────────────────────────────┘
-
-┌──────────┬────────────────┐
-│ Emulator │ Host:Port      │
-├──────────┼────────────────┤
-│ Hosting  │ 127.0.0.1:5000 │
-└──────────┴────────────────┘
-  Emulator Hub running at 127.0.0.1:4400
-  Other reserved ports: 4500
-
-Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
- 
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:13:39 +0000] "GET /weather HTTP/1.1" 200 688 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:13:39 +0000] \"GET /weather HTTP/1.1\" 200 688 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:13:47 +0000] "GET /weather/remoteEntry.js HTTP/1.1" 200 688 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:13:47 +0000] \"GET /weather/remoteEntry.js HTTP/1.1\" 200 688 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T13:14:11.676Z] Received signal SIGINT (Ctrl-C) 1
-[debug] [2024-09-11T13:14:14.261Z] ----------------------------------------------------------------------
-[debug] [2024-09-11T13:14:14.262Z] Command:       C:\Users\user\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
-[debug] [2024-09-11T13:14:14.262Z] CLI Version:   13.16.0
-[debug] [2024-09-11T13:14:14.263Z] Platform:      win32
-[debug] [2024-09-11T13:14:14.263Z] Node Version:  v18.5.0
-[debug] [2024-09-11T13:14:14.263Z] Time:          Wed Sep 11 2024 17:44:14 GMT+0430 (Iran Daylight Time)
-[debug] [2024-09-11T13:14:14.263Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2024-09-11T13:14:14.341Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-09-11T13:14:14.341Z] > authorizing via signed-in user (artificial.intelligence.develop@gmail.com)
-[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
-[debug] [2024-09-11T13:14:14.349Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T13:14:14.349Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T13:14:14.349Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project weather-test-86064. This may result in unexpected behavior. 
-[debug] [2024-09-11T13:14:14.354Z] [hub] writing locator at C:\Users\user\AppData\Local\Temp\hub-weather-test-86064.json
-[debug] [2024-09-11T13:14:14.370Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 
-[debug] [2024-09-11T13:14:15.857Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 200
-[debug] [2024-09-11T13:14:15.857Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites {"sites":[{"name":"projects/weather-test-86064/sites/weather-test-86064","defaultUrl":"https://weather-test-86064.web.app","type":"DEFAULT_SITE"}]}
-[debug] [2024-09-11T13:14:15.857Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config [none]
-[debug] [2024-09-11T13:14:16.754Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config 200
-[debug] [2024-09-11T13:14:16.755Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config {"projectId":"weather-test-86064","storageBucket":"weather-test-86064.appspot.com","apiKey":"AIzaSyCqR7YNATcczprjcURgTvxsb9YLt-dQ4cQ","authDomain":"weather-test-86064.firebaseapp.com","messagingSenderId":"501333426279"}
-[debug] [2024-09-11T13:14:16.758Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 [none]
-[debug] [2024-09-11T13:14:17.380Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 200
-[debug] [2024-09-11T13:14:17.381Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 {"projectId":"weather-test-86064","projectNumber":"501333426279","displayName":"weather-test","name":"projects/weather-test-86064","resources":{"hostingSite":"weather-test-86064"},"state":"ACTIVE","etag":"1_0a770bb4-89fc-4a5e-905e-206af3b6097a"}
-[info] i  hosting[weather-test-86064]: Serving hosting files from: container/dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mcontainer/dist\u001b[22m"}}
-[info] +  hosting[weather-test-86064]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
-[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
-[info] 
-┌─────────────────────────────────────────────────────────────┐
-│ ✔  All emulators ready! It is now safe to connect your app. │
-└─────────────────────────────────────────────────────────────┘
-
-┌──────────┬────────────────┐
-│ Emulator │ Host:Port      │
-├──────────┼────────────────┤
-│ Hosting  │ 127.0.0.1:5000 │
-└──────────┴────────────────┘
-  Emulator Hub running at 127.0.0.1:4400
-  Other reserved ports: 4500
-
-Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
- 
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:14:19 +0000] "GET /weather/remoteEntry.js HTTP/1.1" 404 161 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:14:19 +0000] \"GET /weather/remoteEntry.js HTTP/1.1\" 404 161 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T13:15:06.493Z] Received signal SIGINT (Ctrl-C) 1
-[debug] [2024-09-11T13:15:08.995Z] ----------------------------------------------------------------------
-[debug] [2024-09-11T13:15:08.996Z] Command:       C:\Users\user\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\user\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
-[debug] [2024-09-11T13:15:08.997Z] CLI Version:   13.16.0
-[debug] [2024-09-11T13:15:08.997Z] Platform:      win32
-[debug] [2024-09-11T13:15:08.997Z] Node Version:  v18.5.0
-[debug] [2024-09-11T13:15:08.997Z] Time:          Wed Sep 11 2024 17:45:08 GMT+0430 (Iran Daylight Time)
-[debug] [2024-09-11T13:15:08.998Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2024-09-11T13:15:09.076Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-09-11T13:15:09.076Z] > authorizing via signed-in user (artificial.intelligence.develop@gmail.com)
-[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
-[debug] [2024-09-11T13:15:09.085Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T13:15:09.085Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-09-11T13:15:09.085Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project weather-test-86064. This may result in unexpected behavior. 
-[debug] [2024-09-11T13:15:09.091Z] [hub] writing locator at C:\Users\user\AppData\Local\Temp\hub-weather-test-86064.json
-[debug] [2024-09-11T13:15:09.106Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 
-[debug] [2024-09-11T13:15:10.999Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites 200
-[debug] [2024-09-11T13:15:10.999Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/weather-test-86064/sites {"sites":[{"name":"projects/weather-test-86064/sites/weather-test-86064","defaultUrl":"https://weather-test-86064.web.app","type":"DEFAULT_SITE"}]}
-[debug] [2024-09-11T13:15:10.999Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config [none]
-[debug] [2024-09-11T13:15:12.077Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config 200
-[debug] [2024-09-11T13:15:12.077Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064/webApps/-/config {"projectId":"weather-test-86064","storageBucket":"weather-test-86064.appspot.com","apiKey":"AIzaSyCqR7YNATcczprjcURgTvxsb9YLt-dQ4cQ","authDomain":"weather-test-86064.firebaseapp.com","messagingSenderId":"501333426279"}
-[debug] [2024-09-11T13:15:12.083Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 [none]
-[debug] [2024-09-11T13:15:12.868Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 200
-[debug] [2024-09-11T13:15:12.868Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather-test-86064 {"projectId":"weather-test-86064","projectNumber":"501333426279","displayName":"weather-test","name":"projects/weather-test-86064","resources":{"hostingSite":"weather-test-86064"},"state":"ACTIVE","etag":"1_0a770bb4-89fc-4a5e-905e-206af3b6097a"}
-[info] i  hosting[weather-test-86064]: Serving hosting files from: container/dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mcontainer/dist\u001b[22m"}}
-[info] +  hosting[weather-test-86064]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
-[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
-[info] 
-┌─────────────────────────────────────────────────────────────┐
-│ ✔  All emulators ready! It is now safe to connect your app. │
-└─────────────────────────────────────────────────────────────┘
-
-┌──────────┬────────────────┐
-│ Emulator │ Host:Port      │
-├──────────┼────────────────┤
-│ Hosting  │ 127.0.0.1:5000 │
-└──────────┴────────────────┘
-  Emulator Hub running at 127.0.0.1:4400
-  Other reserved ports: 4500
-
-Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
- 
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:15:18 +0000] "GET / HTTP/1.1" 200 688 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:15:18 +0000] \"GET / HTTP/1.1\" 200 688 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:15:18 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:15:18 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:15:20 +0000] "GET / HTTP/1.1" 200 688 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:15:20 +0000] \"GET / HTTP/1.1\" 200 688 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:15:24 +0000] "GET /weather/remoteEntry.js HTTP/1.1" 404 161 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:15:24 +0000] \"GET /weather/remoteEntry.js HTTP/1.1\" 404 161 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
-[debug] [2024-09-11T13:15:43.937Z] Received signal SIGINT (Ctrl-C) 1
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:34 +0000] "GET / HTTP/1.1" 200 671 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:34 +0000] \"GET / HTTP/1.1\" 200 671 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:35 +0000] "GET /main.af84a1938c52ae33646d.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:35 +0000] \"GET /main.af84a1938c52ae33646d.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:35 +0000] "GET /weather/latest/540.23beee6c3c25d2a6b49e.js HTTP/1.1" 404 181 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:35 +0000] \"GET /weather/latest/540.23beee6c3c25d2a6b49e.js HTTP/1.1\" 404 181 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:35 +0000] "GET /weather/latest/393.3feb2d74944a88d38209.js HTTP/1.1" 404 181 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:35 +0000] \"GET /weather/latest/393.3feb2d74944a88d38209.js HTTP/1.1\" 404 181 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:35 +0000] "GET /weather/latest/961.a2dfd6d98d06f4f3c8ed.js HTTP/1.1" 404 181 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:35 +0000] \"GET /weather/latest/961.a2dfd6d98d06f4f3c8ed.js HTTP/1.1\" 404 181 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:35 +0000] "GET /weather/latest/447.d1a17cd1b33a316875ec.js HTTP/1.1" 404 181 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:35 +0000] \"GET /weather/latest/447.d1a17cd1b33a316875ec.js HTTP/1.1\" 404 181 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:35 +0000] "GET /weather/latest/729.4dc13fea09d580e8c22b.js HTTP/1.1" 404 181 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:35 +0000] \"GET /weather/latest/729.4dc13fea09d580e8c22b.js HTTP/1.1\" 404 181 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] "GET / HTTP/1.1" 200 671 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] \"GET / HTTP/1.1\" 200 671 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] "GET /main.af84a1938c52ae33646d.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] \"GET /main.af84a1938c52ae33646d.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] "GET /772.4c30aa6fc3a0417478fc.js HTTP/1.1" 200 278 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] \"GET /772.4c30aa6fc3a0417478fc.js HTTP/1.1\" 200 278 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] "GET /remoteEntry.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] \"GET /remoteEntry.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] "GET /540.23beee6c3c25d2a6b49e.js HTTP/1.1" 404 166 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] \"GET /540.23beee6c3c25d2a6b49e.js HTTP/1.1\" 404 166 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] "GET /393.3feb2d74944a88d38209.js HTTP/1.1" 404 166 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] \"GET /393.3feb2d74944a88d38209.js HTTP/1.1\" 404 166 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] "GET /961.a2dfd6d98d06f4f3c8ed.js HTTP/1.1" 404 166 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] \"GET /961.a2dfd6d98d06f4f3c8ed.js HTTP/1.1\" 404 166 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] "GET /447.d1a17cd1b33a316875ec.js HTTP/1.1" 404 166 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] \"GET /447.d1a17cd1b33a316875ec.js HTTP/1.1\" 404 166 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] "GET /729.4dc13fea09d580e8c22b.js HTTP/1.1" 404 166 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] \"GET /729.4dc13fea09d580e8c22b.js HTTP/1.1\" 404 166 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:39 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:47 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:47 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:53 +0000] "GET /remoteEntry.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:53 +0000] \"GET /remoteEntry.js HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:43:53 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5005/remoteEntry.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:43:53 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:5005/remoteEntry.js\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:44:09 +0000] "GET /540.23beee6c3c25d2a6b49e.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:44:09 +0000] \"GET /540.23beee6c3c25d2a6b49e.js HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:44:17 +0000] "GET / HTTP/1.1" 200 671 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:44:17 +0000] \"GET / HTTP/1.1\" 200 671 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:44:17 +0000] "GET /main.af84a1938c52ae33646d.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:44:17 +0000] \"GET /main.af84a1938c52ae33646d.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:44:18 +0000] "GET /remoteEntry.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:44:18 +0000] \"GET /remoteEntry.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:44:18 +0000] "GET /540.23beee6c3c25d2a6b49e.js HTTP/1.1" 404 166 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:44:18 +0000] \"GET /540.23beee6c3c25d2a6b49e.js HTTP/1.1\" 404 166 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:44:18 +0000] "GET /393.3feb2d74944a88d38209.js HTTP/1.1" 404 166 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:44:18 +0000] \"GET /393.3feb2d74944a88d38209.js HTTP/1.1\" 404 166 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:44:18 +0000] "GET /961.a2dfd6d98d06f4f3c8ed.js HTTP/1.1" 404 166 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:44:18 +0000] \"GET /961.a2dfd6d98d06f4f3c8ed.js HTTP/1.1\" 404 166 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:44:18 +0000] "GET /447.d1a17cd1b33a316875ec.js HTTP/1.1" 404 166 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:44:18 +0000] \"GET /447.d1a17cd1b33a316875ec.js HTTP/1.1\" 404 166 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [11/Sep/2024:13:44:18 +0000] "GET /729.4dc13fea09d580e8c22b.js HTTP/1.1" 404 166 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [11/Sep/2024:13:44:18 +0000] \"GET /729.4dc13fea09d580e8c22b.js HTTP/1.1\" 404 166 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}}

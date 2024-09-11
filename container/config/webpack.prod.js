@@ -3,19 +3,19 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const commonConfig = require("./webpack.common");
 const packageJson = require("../package.json");
 
-const domain = process.env.PRODUCTION_DOMAIN || "http://localhost:8081";
+const domain = process.env.PRODUCTION_DOMAIN || "http://localhost:5005";
 
 const prodConfig = {
 	mode: "production",
 	output: {
 		filename: "[name].[contenthash].js",
-		publicPath: "/container/latest/",
+		publicPath: "/",
 	},
 	plugins: [
 		new ModuleFederationPlugin({
 			name: "container",
 			remotes: {
-				weather: `weather@${domain}/weather/latest/remoteEntry.js`,
+				weather: `weather@${domain}/remoteEntry.js`,
 			},
 			shared: packageJson.dependencies,
 		}),

@@ -7,7 +7,7 @@ const prodConfig = {
   mode: 'production',
   output: {
     filename: '[name].[contenthash].js',
-    publicPath: '/weather/latest/',
+    publicPath: '/',
   },
   plugins: [
     new ModuleFederationPlugin({

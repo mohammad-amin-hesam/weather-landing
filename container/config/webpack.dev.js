@@ -15,7 +15,7 @@ const devConfig = {
 		new ModuleFederationPlugin({
 			name: "container",
 			remotes: {
-				weather: "weather@http://localhost:8081/remoteEntry.js",
+				weather: "weather@http://localhost:5005/remoteEntry.js",
 			},
 			shared: packageJson.dependencies,
 		}),
