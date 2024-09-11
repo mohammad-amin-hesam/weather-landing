@@ -3,7 +3,8 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const commonConfig = require("./webpack.common");
 const packageJson = require("../package.json");
 
-const domain = process.env.PRODUCTION_DOMAIN || "http://localhost:5005";
+const domain =
+	process.env.PRODUCTION_DOMAIN || "https://weather-container-f486c.web.app/";
 
 const prodConfig = {
 	mode: "production",
