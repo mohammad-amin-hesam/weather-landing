@@ -9,9 +9,6 @@ on:
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: "container"
 
     strategy:
       matrix:
@@ -23,7 +20,15 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Build
+      - name: Build container
+        run:
+          working-directory: "container"
+        run: |
+          yarn install
+          yarn build
+      - name: Build weather
+        run:
+          working-directory: "weather"
         run: |
           yarn install
           yarn build
