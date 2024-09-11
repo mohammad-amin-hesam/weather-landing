@@ -1,6 +1,7 @@
 {
   "projects": {
-    "default": "weather-test-86064"
+    "default": "weather-test-86064",
+    "container": "weather-container-f486c"
   },
   "targets": {
     "weather-test-86064": {
