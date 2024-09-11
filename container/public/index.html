@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Container App</title>
+	</head>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		.btn-container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 16px;
+		}
+		.btn-container button {
+			background-color: #434343;
+			color: #fff;
+			border: 0;
+			outline: none;
+			padding: 12px;
+			border-radius: 8px;
+			cursor: pointer;
+			transition: opacity linear 0.2s;
+		}
+		.btn-container button:hover {
+			opacity: 0.8;
+		}
+	</style>
+	<body>
+		<div class="btn-container">
+			<button type="button" id="load-btn">Load weather</button>
+		</div>
+		<div id="weather-app"></div>
+	</body>
+</html>
