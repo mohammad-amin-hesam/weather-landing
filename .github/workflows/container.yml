@@ -21,14 +21,12 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Build container
-        run:
-          working-directory: "container"
+        working-directory: "container"
         run: |
           yarn install
           yarn build
       - name: Build weather
-        run:
-          working-directory: "weather"
+        working-directory: "weather"
         run: |
           yarn install
           yarn build
