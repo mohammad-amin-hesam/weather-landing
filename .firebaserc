@@ -5,11 +5,11 @@
   "targets": {
     "weather-test-86064": {
       "hosting": {
-        "container": [
-          "weather-test-container"
-        ],
         "weather": [
-          "weather-test-weather"
+          "weather-test"
+        ],
+        "container": [
+          "weather-container"
         ]
       }
     }
