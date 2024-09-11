@@ -1,26 +1,13 @@
 {
-	"hosting": [
-		{
-			"target": "container",
-			"public": "container/dist",
-			"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-			"rewrites": [
-				{
-					"source": "**",
-					"destination": "/index.html"
-				}
-			]
-		},
-		{
-			"target": "weather",
-			"public": "weather/dist",
-			"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-			"rewrites": [
-				{
-					"source": "**",
-					"destination": "/index.html"
-				}
-			]
-		}
-	]
+	"hosting": {
+		"target": "container",
+		"public": "container/dist",
+		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+		"rewrites": [
+			{
+				"source": "**",
+				"destination": "/index.html"
+			}
+		]
+	}
 }

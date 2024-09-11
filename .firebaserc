@@ -1,20 +1,5 @@
 {
-  "projects": {
-    "default": "weather-test-86064",
-    "container": "weather-container-f486c"
-  },
-  "targets": {
-    "weather-test-86064": {
-      "hosting": {
-        "weather": [
-          "weather-test-86064"
-        ],
-        "container": [
-          "weather-container-f486c"
-        ]
-      }
-    }
-  },
-  "etags": {},
-  "dataconnectEmulatorConfig": {}
+	"projects": {
+		"default": "weather-test-86064"
+	}
 }
