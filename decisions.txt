@@ -1,0 +1,11 @@
+.github => github workflow
+container => pure javascript project
+weather => weather app
+config => for webpack configuration and seperate it to 3 different files
+dist => production version of project
+public => for html file and assets
+components => used to break virtual dom and create new detailed components
+
+api/index.js => a class that uses as a middleware for api requests
+hooks/useWeather => custom hook for weather logic that makes codebase reuseable and easy for future development
+
