@@ -1,19 +1,5 @@
 {
   "projects": {
     "default": "weather-test-86064"
-  },
-  "targets": {
-    "weather-test-86064": {
-      "hosting": {
-        "weather": [
-          "weather-test"
-        ],
-        "container": [
-          "weather-container"
-        ]
-      }
-    }
-  },
-  "etags": {},
-  "dataconnectEmulatorConfig": {}
+  }
 }
